@@ -1,0 +1,187 @@
+body{
+    height: 100%;
+    margin: 0;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.nav-bar{
+    overflow: hidden;
+    background-color: #1f2937;
+    margin: 0;
+}
+
+.nav-contents{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar a{
+    color: white;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+    float: right;
+}
+
+.nav-bar a.left{
+    float: left;
+    padding: 0;
+}
+
+.logo{
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+}
+
+.first-block{
+    display: flex;
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    margin: 0;
+}
+
+.first-contents{
+    padding: 50px;
+    color: white;
+}
+
+.first-contents button{
+    align-items: center;
+    background-color: #0A66C2;
+    border: 0;
+    border-radius: 100px;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 20px;
+    max-width: 480px;
+    min-height: 40px;
+    min-width: 0px;
+    overflow: hidden;
+    padding: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+    touch-action: manipulation;
+    transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+    user-select: none;
+    -webkit-user-select: none;
+    vertical-align: middle;
+}
+
+.first-image{
+    padding: 40px;
+}
+
+.placeholder{
+    height: 80%;
+}
+
+.second-header{
+    text-align: center;
+    align-items: center;
+    margin: 0;
+}
+.second-contents{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    padding: 50px;
+}
+.second-contents div{
+    border: 10px;
+    border-color: #0A66C2;
+    height: 5%;
+    width: 15%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.second-block{
+    margin: 0;
+}
+
+.third-block{
+    background-color: #e5e7eb;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10%;
+}
+
+.third-block p{
+    font-size: 30px;
+    margin: 0;
+    font-style: italic;
+    display: inline;
+}
+
+.third-block h3{
+    margin-left: 50%;
+}
+
+.fourth-block{
+    margin: 70px 160px 70px 160px;
+    
+}
+
+.fourth-contents{
+    background-color: #3882f6;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    padding: 20px;
+}
+
+.fourth-description{
+    color: white;
+    padding: 20px;
+}
+
+.fourth-description p{
+    margin: 0;
+}
+
+.fourth-button button{
+    background-color: #3882f6;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 5px 30px;
+    text-decoration: none;
+}
+
+.fourth-button a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer{
+    background-color: #1f2937;
+    margin: 0;
+    height: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer h5{
+    margin: 0;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
